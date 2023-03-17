@@ -1,0 +1,18 @@
+name: teledream
+version: 0.1.0
+
+authors:
+  - Pim Snel <post@pimsnel.com>
+
+targets:
+  teledream:
+    main: src/teledream.cr
+
+dependencies:
+  tourmaline:
+    github: protoncr/tourmaline
+    branch: master
+
+crystal: 1.2.2
+
+license: MIT
